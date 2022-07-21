@@ -48,7 +48,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
       <div class="header__icons">
         <i class="material-icons display-this">search</i>
        <a href="subir.php" style=" text-decoration: none;">  <i class="material-icons">videocam</i></a>
-      <a href="http://localhost/portales/google-clone/index.html" style=" text-decoration: none;">   <i class="material-icons">apps</i></a>
+      <a href="index.php" style=" text-decoration: none;">   <i class="material-icons">apps</i></a>
         <i class="material-icons">notifications</i>
         <i class="material-icons display-this">account_circle</i>
       </div>
