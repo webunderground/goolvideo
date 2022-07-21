@@ -114,7 +114,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
  {  
       $tag = preg_replace("#[^a-zA-Z0-9_]#", '', $_GET["tag"]);  
       echo '<h1>' . $tag . '</h1>';  
-      $connect = mysqli_connect("localhost", "root", "lolita1873", "videos");  
+      $connect = mysqli_connect("localhost", "root", "password", "videos");  
       $query = "SELECT * FROM videos where usuario LIKE '%".$tag."%'";  
       $result = mysqli_query($connect, $query);  
       if(mysqli_num_rows($result) > 0)  
