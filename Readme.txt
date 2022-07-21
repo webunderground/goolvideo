@@ -1,3 +1,7 @@
+red social para ver videos cortos 
+se puede subir videos tiene un registro y un login ademas un tablon mensajes 
+
+
 plantilla de html
 CLONES With HTML and CSS
 https://github.com/somanath-goudar/html-css-projects
